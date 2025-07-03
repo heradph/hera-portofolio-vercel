@@ -24,7 +24,7 @@
             </div>
     </div>
     <div class="mt-6 flex justify-center">
-        <a href="{{ asset('CV Devariza Putera Herawan.pdf') }}" download
+        <a href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}" download
             class="inline-block px-6 py-3 bg-[#1D503A] text-white font-semibold rounded-lg shadow-md hover:bg-[#FAF5EE] hover:text-gray-700 transition">
             <i class="fa-solid fa-file mr-2"></i>
             Download CV
