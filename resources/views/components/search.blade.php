@@ -16,7 +16,7 @@
                     <input class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-blue-500 focus:border-blue-500 " placeholder="search blogs.." type="search" id="search" name="search" autocomplete="off">
                 </div> 
                 <div>
-                    <button type="submit" class="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-blue-700 border-blue-600 sm:rounded-none sm:rounded-r-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">Search</button>
+                    <button type="submit" class="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-[#1D503A]  shadow-md hover:bg-[#FAF5EE] hover:text-gray-700 border-[#1D503A] sm:rounded-none sm:rounded-r-lg focus:ring-4 focus:ring-blue-300">Search</button>
                 </div>
             </div>
         </form>
