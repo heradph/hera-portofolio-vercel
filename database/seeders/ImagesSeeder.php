@@ -69,6 +69,13 @@ class ImagesSeeder extends Seeder
             ['name' => 'pedagora6', 'image' => 'img/pedagora13.png'], 
             ['name' => 'pedagora6', 'image' => 'img/pedagora14.png'], 
             ['name' => 'pedagora6', 'image' => 'img/pedagora15.png'], 
+            ['name' => 'meds', 'image' => 'img/meds.png'], // 56
+            ['name' => 'meds', 'image' => 'img/meds1.png'], 
+            ['name' => 'meds', 'image' => 'img/meds2.png'], 
+            ['name' => 'meds', 'image' => 'img/meds3.png'], 
+            ['name' => 'meds', 'image' => 'img/meds4.png'], 
+            ['name' => 'meds', 'image' => 'img/meds5.png'], 
+            ['name' => 'meds', 'image' => 'img/meds6.png'], //62
         ]);
     }
 }
