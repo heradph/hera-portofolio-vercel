@@ -6,7 +6,7 @@
   14 => 'view',
   'app' => 
   array (
-    'name' => 'Laravel',
+    'name' => 'Laraveladas',
     'env' => 'development',
     'debug' => true,
     'url' => 'https://hera-portofolio.vercel.app',
@@ -203,7 +203,7 @@
         'driver' => 'octane',
       ),
     ),
-    'prefix' => 'laravel_cache_',
+    'prefix' => 'laraveladas_cache_',
   ),
   'database' => 
   array (
@@ -301,7 +301,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'laravel_database_',
+        'prefix' => 'laraveladas_database_',
         'persistent' => false,
       ),
       'default' => 
@@ -528,7 +528,7 @@
     'from' => 
     array (
       'address' => 'hello@example.com',
-      'name' => 'Laravel',
+      'name' => 'Laraveladas',
     ),
     'markdown' => 
     array (
@@ -639,7 +639,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'laravel_session',
+    'cookie' => 'laraveladas_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => NULL,
