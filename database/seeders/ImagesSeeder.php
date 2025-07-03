@@ -60,22 +60,22 @@ class ImagesSeeder extends Seeder
             ['name' => 'pedagora4', 'image' => 'img/pedagora4.png'],
             ['name' => 'pedagora5', 'image' => 'img/pedagora5.png'],
             ['name' => 'pedagora6', 'image' => 'img/pedagora6.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora7.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora8.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora9.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora10.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora11.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora12.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora13.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora14.png'], 
-            ['name' => 'pedagora6', 'image' => 'img/pedagora15.png'], 
+            ['name' => 'pedagora7', 'image' => 'img/pedagora7.png'], 
+            ['name' => 'pedagora8', 'image' => 'img/pedagora8.png'], 
+            ['name' => 'pedagora9', 'image' => 'img/pedagora9.png'], 
+            ['name' => 'pedagora10', 'image' => 'img/pedagora10.png'], 
+            ['name' => 'pedagora11', 'image' => 'img/pedagora11.png'], 
+            ['name' => 'pedagora12', 'image' => 'img/pedagora12.png'], 
+            ['name' => 'pedagora13', 'image' => 'img/pedagora13.png'], 
+            ['name' => 'pedagora14', 'image' => 'img/pedagora14.png'], 
+            ['name' => 'pedagora15', 'image' => 'img/pedagora15.png'], 
             ['name' => 'meds', 'image' => 'img/meds.png'], // 56
-            ['name' => 'meds', 'image' => 'img/meds1.png'], 
-            ['name' => 'meds', 'image' => 'img/meds2.png'], 
-            ['name' => 'meds', 'image' => 'img/meds3.png'], 
-            ['name' => 'meds', 'image' => 'img/meds4.png'], 
-            ['name' => 'meds', 'image' => 'img/meds5.png'], 
-            ['name' => 'meds', 'image' => 'img/meds6.png'], //62
+            ['name' => 'meds1', 'image' => 'img/meds1.png'], 
+            ['name' => 'meds2', 'image' => 'img/meds2.png'], 
+            ['name' => 'meds3', 'image' => 'img/meds3.png'], 
+            ['name' => 'meds4', 'image' => 'img/meds4.png'], 
+            ['name' => 'meds5', 'image' => 'img/meds5.png'], 
+            ['name' => 'meds6', 'image' => 'img/meds6.png'], //62
         ]);
     }
 }
