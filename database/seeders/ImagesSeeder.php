@@ -75,7 +75,8 @@ class ImagesSeeder extends Seeder
             ['name' => 'meds3', 'image' => 'img/meds3.png'], 
             ['name' => 'meds4', 'image' => 'img/meds4.png'], 
             ['name' => 'meds5', 'image' => 'img/meds5.png'], 
-            ['name' => 'meds6', 'image' => 'img/meds6.png'], //62
+            ['name' => 'meds6', 'image' => 'img/meds6.png'],  //62
+            ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //63
         ]);
     }
 }

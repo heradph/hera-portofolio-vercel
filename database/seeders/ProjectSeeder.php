@@ -74,7 +74,7 @@ class ProjectSeeder extends Seeder
     $project2->images()->attach([10, 11, 12, 13, 14]);
 
     $project3->technologies()->attach([1, 2, 3, 6]); 
-    $project3->images()->attach([15, 16, 17, 18]); 
+    $project3->images()->attach([15, 63, 16, 17, 18]); 
 
     $project4->technologies()->attach([4, 5, 6, 7, 10]);
     $project4->images()->attach([19, 20, 21, 22 ,23, 24, 25, 26, 27, 28, 29, 30]);
