@@ -11,6 +11,22 @@
             "dest": "/public/img/"
         },
         {
+            "src": "/(.*\\.pdf)", 
+            "dest": "/public/$1"
+        },
+        {
+            "src": "/(.*\\.ico)", 
+            "dest": "/public/$1"
+        },
+        {
+            "src": "/(.*\\.txt)",
+            "dest": "/public/$1"
+        },
+        {
+            "src": "/(.*\\.php)",
+            "dest": "/public/$1"
+        },
+        {
             "src": "/build/(.*)",
             "dest": "/public/build/$1"
         },

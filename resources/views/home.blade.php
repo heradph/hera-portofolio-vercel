@@ -54,5 +54,5 @@
     <section class=" max-w-xl mx-auto text-center text-gray-600 italic">
         – John Johnson
     </section>
-</a>
+    </a>
 </x-layout>
