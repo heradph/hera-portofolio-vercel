@@ -89,15 +89,9 @@
                 <div class="shrink-0">
                     <img class="size-10 rounded-full object-cover" src="{{ asset('img/profile1.JPG') }}" alt="">
                 </div>
-                <div class="ml-3">
-                    <div class="text-base/5 font-medium text-white">Devariza Putera Herawan</div>
-                    <div class="text-sm font-medium text-gray-400">devarizaph@gmail.com</div>
+                <div class="ml-3 my-5">
+                    <div class="block rounded-md px-3 py-2 text-base font-medium text-gray-300">Hello, I'm Hera</div>
                 </div>
-            </div>
-            <div class="mt-3 space-y-1 px-2">
-                <a href="/logout"
-                    class="block rounded-md px-3 py-2 text-base font-medium  text-gray-300 hover:bg-[#FAF5EE] hover:text-black">Hello,
-                    I'm Hera!</a>
             </div>
         </div>
     </div>
