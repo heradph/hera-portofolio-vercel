@@ -58,7 +58,7 @@
                     <img src="img/profile1.JPG" alt="About Me"
                         class="mx-auto mt-8 h-120 rounded-3xl object-cover shadow-md" />
 
-                    <a href="{{ asset('CV Devariza Putera Herawan.pdf') }}" download
+                    <a href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}" download
                         class="px-6 py-3 bg-[#1D503A] text-white font-semibold rounded-lg shadow-md hover:bg-[#FAF5EE] hover:text-gray-700 transition">
                         <i class="fa-solid fa-file mr-2"></i>
                         Download CV
