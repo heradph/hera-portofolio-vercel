@@ -89,8 +89,8 @@
                 <div class="shrink-0">
                     <img class="size-10 rounded-full object-cover" src="{{ asset('img/profile1.JPG') }}" alt="">
                 </div>
-                <div class="ml-3 my-5">
-                    <div class="block rounded-md px-3 py-2 text-base font-medium text-gray-300">Hello, I'm Hera</div>
+                <div class="ml-3">
+                    <div class="block rounded-md px-3 py-2 text-base font-medium text-gray-300">Hello, I'm Hera!</div>
                 </div>
             </div>
         </div>
