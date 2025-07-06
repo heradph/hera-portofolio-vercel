@@ -6,7 +6,7 @@
                 class="absolute inset-0 h-full w-full object-cover object-[100%_18%] opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
-                <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">Hello, I am</p>
+                <p class="text-sm font-medium tracking-widest text-[#1D503A] uppercase">Hello, I am</p>
 
                 <p class="text-xl font-bold text-white sm:text-2xl">Devariza Putera Herawan</p>
 
@@ -17,7 +17,7 @@
                             Computer Science student who would love to take the opportunity to participate in web
                             development projects.
                         </p>
-                        <p class="text-xs text-pink-500">Click to see More</p>
+                        <p class="text-xs text-[#1D503A]">Click to see More</p>
                     </div>
 
                 </div>
