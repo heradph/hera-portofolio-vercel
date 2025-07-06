@@ -11,15 +11,11 @@
             "dest": "/public/img/"
         },
         {
-            "src": "/(.*\\.pdf)", 
+            "src": "/(.*\\.pdf)",
             "dest": "/public/$1"
         },
         {
-            "src": "/(.*\\.ico)", 
-            "dest": "/public/$1"
-        },
-        {
-            "src": "/(.*\\.ico)", 
+            "src": "/favicon/(.*)",
             "dest": "/favicon/$1"
         },
         {
