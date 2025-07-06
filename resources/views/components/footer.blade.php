@@ -19,13 +19,10 @@
                 </div>
 
                 <div class="-mb-13 col-span-2 lg:col-span-3 lg:flex lg:items-end">
-                    <div class="text-gray-300 justify-end w-full focus-within:ring-3 sm:flex sm:items-center sm:gap-4">
+                    <div class="text-white text-2xl justify-end w-full focus-within:ring-3 sm:flex sm:items-center sm:gap-4">
                         devarizaph@gmail.com
                     </div>
                 </div>
-
-
-
                 <ul class="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
                     <li>
                         <a href="https://instagram.com/devarph" rel="noreferrer" target="_blank"
