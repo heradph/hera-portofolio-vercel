@@ -61,7 +61,7 @@ class ProjectSeeder extends Seeder
         'title' => "Syafira Sungkar Shop (Wix)",
         'slug' => 'syafira-sungkar-shop',
         'thumbnail' => 'img/syafiralogo.png',
-        'description' => "SyafiraSungkar.shop is a company profile website I developed for a trusted personal shopping and delivery service specializing in jasa titip across Asia. The platform showcases the brand's offerings in fashion, cosmetics, and skincare procurement, highlighting their seamless service for clients seeking exclusive or hard-to-find international items. The website focuses on clear branding, responsive design, and user-friendly navigation to enhance client trust and engagement. Made with Wix",
+        'description' => "SyafiraSungkar.shop is a company profile website we developed for a trusted personal shopping and delivery service specializing in jasa titip across Asia. The platform showcases the brand's offerings in fashion, cosmetics, and skincare procurement, highlighting their seamless service for clients seeking exclusive or hard-to-find international items. The website focuses on clear branding, responsive design, and user-friendly navigation to enhance client trust and engagement. Made with Wix",
         'github' => 'https://www.syafirasungkar.shop/'
     ]);
     
