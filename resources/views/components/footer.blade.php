@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="-mb-13 col-span-2 lg:col-span-3 lg:flex lg:items-end">
-                    <div class="text-white text-2xl justify-end w-full focus-within:ring-3 sm:flex sm:items-center sm:gap-4">
+                    <div class="text-white justify-end w-full focus-within:ring-3 sm:flex sm:items-center sm:gap-4">
                         devarizaph@gmail.com
                     </div>
                 </div>
@@ -28,28 +28,28 @@
                         <a href="https://instagram.com/devarph" rel="noreferrer" target="_blank"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fa-brands fa-instagram text-white text-2xl transition-colors duration-300 group-hover:text-pink-500"></i>
+                                class="fa-brands fa-instagram text-white text-xl transition-colors duration-300 group-hover:text-pink-500"></i>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/devarizaph/" rel="noreferrer" target="_blank"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fa-brands fa-linkedin text-white text-2xl transition-colors duration-300 group-hover:text-blue-500"></i>
+                                class="fa-brands fa-linkedin text-white text-xl transition-colors duration-300 group-hover:text-blue-500"></i>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/heradph" rel="noreferrer" target="_blank"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fab fa-github text-white text-2xl transition-colors duration-300 group-hover:text-gray-400"></i>
+                                class="fab fa-github text-white text-xl transition-colors duration-300 group-hover:text-gray-400"></i>
                         </a>
                     </li>
                     <li>
                         <a href="https://x.com/nepbk" rel="noreferrer" target="_blank"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fa-brands fa-x-twitter text-white text-2xl transition-colors duration-300 group-hover:text-black"></i>
+                                class="fa-brands fa-x-twitter text-white text-xl transition-colors duration-300 group-hover:text-black"></i>
                         </a>
                     </li>
                     <li>
@@ -57,14 +57,14 @@
                             rel="noreferrer" target="_blank"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fa-brands fa-whatsapp text-white text-2xl transition-colors duration-300 group-hover:text-green-400"></i>
+                                class="fa-brands fa-whatsapp text-white text-xl transition-colors duration-300 group-hover:text-green-400"></i>
                         </a>
                     </li>
                     <li>
                         <a href="mailto:devarizaph@gmail.com"
                             class="group flex items-center transition-transform duration-300 hover:scale-105">
                             <i
-                                class="fa-solid fa-envelope text-white text-2xl transition-colors duration-300 group-hover:text-red-400"></i>
+                                class="fa-solid fa-envelope text-white text-xl transition-colors duration-300 group-hover:text-red-400"></i>
                         </a>
                     </li>
                 </ul>
