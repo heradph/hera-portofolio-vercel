@@ -42,9 +42,7 @@
             <i class="fa-brands fa-css3-alt"></i>
             <i class="fa-brands fa-node-js"></i>
             <i class="fa-brands fa-java"></i>
-            <i class="fa-brands fa-docker"></i>
-            <i class="fa-brands fa-git-alt"></i>
-            <i class="fa-brands fa-figma"></i>
+            <i class="fa-solid fa-database"></i>
         </div>
     </section>
 

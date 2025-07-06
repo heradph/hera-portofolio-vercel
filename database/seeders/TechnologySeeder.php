@@ -26,6 +26,8 @@ class TechnologySeeder extends Seeder
             ['name' => 'Java', 'item_class' => 'fa-brands fa-java'],
             ['name' => 'Docker', 'item_class' => 'fa-brands fa-docker'],
             ['name' => 'Figma', 'item_class' => 'fa-brands fa-figma'],
+            ['name' => 'Database', 'item_class' => 'fa-solid fa-database'],
+            
         ]);
     }
 }

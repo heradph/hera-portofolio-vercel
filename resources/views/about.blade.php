@@ -51,6 +51,7 @@
                         <i class="fa-brands fa-docker"></i>
                         <i class="fa-brands fa-git-alt"></i>
                         <i class="fa-brands fa-figma"></i>
+                        <i class="fa-solid fa-database"></i>
                     </div>
                 </div>
 

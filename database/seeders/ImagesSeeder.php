@@ -78,6 +78,8 @@ class ImagesSeeder extends Seeder
             ['name' => 'syafira6', 'image' => 'img/syafira6.png'], 
             ['name' => 'syafira7', 'image' => 'img/syafira7.png'], 
             ['name' => 'syafira8', 'image' => 'img/syafira8.png'], //64
+            ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //65
+
 
             // ['name' => 'meds', 'image' => 'img/meds.png'], // 56
             // ['name' => 'meds1', 'image' => 'img/meds1.png'], 
@@ -86,7 +88,6 @@ class ImagesSeeder extends Seeder
             // ['name' => 'meds4', 'image' => 'img/meds4.png'], 
             // ['name' => 'meds5', 'image' => 'img/meds5.png'], 
             // ['name' => 'meds6', 'image' => 'img/meds6.png'],  //62
-            // ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //63
         ]);
     }
 }
