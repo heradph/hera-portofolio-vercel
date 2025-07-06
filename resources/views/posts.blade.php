@@ -38,7 +38,18 @@
                                 </span>
                             </div>
                         </a>
-                        <a href="/posts/{{ $post['slug'] }}"
+                        <a class="group relative inline-flex items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+                            href="/posts/{{ $post['slug'] }}">
+                            <span class="absolute -end-full transition-all group-hover:end-4">
+                                <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </span>
+                            <span class="text-sm font-medium transition-all group-hover:me-4"> Read More </span>
+                        </a>
+                        {{-- <a "
                             class="inline-flex whitespace-nowrap items-center text-sm font-medium text-primary-900 hover:underline">
                             Read more
                             <svg class="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
@@ -47,7 +58,7 @@
                                     d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
                             </svg>
-                        </a>
+                        </a> --}}
                     </div>
                 </article>
             @empty
