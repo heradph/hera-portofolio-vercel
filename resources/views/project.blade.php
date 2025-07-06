@@ -7,7 +7,7 @@
 
     <section class="bg-gray-100 py-10">
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-800">{{ $project->title }}</h2>
                 <p class="mt-2 text-gray-600 max-w-3xl mx-auto">{{ $project->description }}</p>
                 <p class="text-sm text-gray-500 mt-1">{{ $project->created_at->diffForHumans() }}</p>
