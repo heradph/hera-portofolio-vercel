@@ -32,9 +32,10 @@
     </div>
     </section>
 
-    <section class="mt-8 max-w-5xl mx-auto px-4 text-center">
+    <section class="mt-8 max-w-3xl mx-auto px-4 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-6">Tech Stack</h2>
-        <div class="flex justify-center flex-wrap gap-5 text-3xl text-gray-700">
+        <div
+            class="grid grid-cols-3 gap-5 text-3xl text-gray-700 justify-items-center md:flex md:justify-center md:flex-wrap">
             <i class="fa-brands fa-php"></i>
             <i class="fa-brands fa-laravel"></i>
             <i class="fa-brands fa-square-js"></i>
@@ -45,6 +46,7 @@
             <i class="fa-solid fa-database"></i>
         </div>
     </section>
+
 
     <section class="mt-8 max-w-xl mx-auto text-center text-gray-600 italic">
         "First, solve the problem. Then, write the code."
