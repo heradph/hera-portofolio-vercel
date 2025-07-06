@@ -2,7 +2,16 @@
     <x-slot:title>{{ $title }}</x-slot:title>
 
     <div class="text-l font-bold text-gray-800">
-        <a href="/projects">&laquo Back to All Projects</a>
+        <a class="group relative inline-flex items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+            href="/projects">
+            <span class="absolute -end-full transition-all group-hover:end-4">
+                <svg class="size-5 shadow-sm rtl:rotate-360" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </span>
+            <span class="text-sm font-medium transition-all group-hover:me-4"> Back to All Projects</span>
+        </a>
     </div>
 
     <section class="bg-gray-100 py-12">
