@@ -36,7 +36,7 @@
 
             </span>
             <i class="fa-solid fa-file mr-2"></i>
-            <span class="text-sm font-medium transition-all group-hover:me-4"> Download CV</span>
+            <span class="text-sm font-bold transition-all group-hover:me-4"> Download CV</span>
         </a>
     </div>
     </section>
