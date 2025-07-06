@@ -13,7 +13,6 @@
                 <p class="text-sm text-gray-500 mt-1">{{ $project->created_at->diffForHumans() }}</p>
             </div>
 
-            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
                 @if ($project->technologies->isNotEmpty())
                     <div class="flex flex-col mb-4 sm:mb-0">
                         <span class="text-lg font-semibold text-gray-800 mb-2">Tech Used:</span>
@@ -31,7 +30,6 @@
                         <i class="fa-brands fa-github text-lg"></i> Source Code
                     </a>
                 </div>
-            </div>
 
             <div class="mt-10">
                 <h3 class="text-xl font-semibold text-gray-700 mb-4">Pages</h3>
