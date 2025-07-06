@@ -38,7 +38,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     @foreach ($project->images as $image)
                         <div
-                            class="w-full h-auto max-h-96 bg-white flex items-center justify-center overflow-hidden rounded-2xl shadow">
+                            class="w-full h-auto max-h-96 bg-gray-100 flex items-center justify-center overflow-hidden rounded-2xl shadow">
                             <img src="{{ asset($image->image) }}" alt="Landing Page {{ $project->title }}"
                                 class="object-contain max-h-96 w-full">
                         </div>
