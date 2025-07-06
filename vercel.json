@@ -19,6 +19,10 @@
             "dest": "/public/$1"
         },
         {
+            "src": "/(.*\\.ico)", 
+            "dest": "/favicon/$1"
+        },
+        {
             "src": "/(.*\\.txt)",
             "dest": "/public/$1"
         },
