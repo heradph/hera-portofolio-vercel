@@ -14,7 +14,6 @@
             </div>
 
             @if ($project->technologies->isNotEmpty())
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
                     <div class="flex flex-col mb-4 sm:mb-0">
                         <span class="text-lg font-semibold text-gray-800 mb-2">Tech Used:</span>
                         <div class="flex flex-wrap gap-4 text-2xl text-gray-700">
