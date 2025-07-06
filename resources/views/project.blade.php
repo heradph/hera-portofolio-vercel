@@ -5,7 +5,7 @@
         <a href="/projects">&laquo Back to All Projects</a>
     </div>
 
-    <section class="bg-gray-100 py-16">
+    <section class="bg-gray-100 py-10">
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-gray-800">{{ $project->title }}</h2>
