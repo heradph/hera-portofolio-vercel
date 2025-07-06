@@ -22,32 +22,30 @@
                         @endforeach
                     </div>
                 </div>
+
+                <div class="flex items-center gap-6 text-sm">
+                    <a href="{{ $project->github }}" target="_blank"
+                        class="flex items-center gap-2 text-gray-700 hover:text-black transition">
+                        <i class="fa-brands fa-github text-lg"></i> Source Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold text-gray-700 mb-4">Pages</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    @foreach ($project->images as $image)
+                        <div
+                            class="w-full h-auto max-h-96 bg-white flex items-center justify-center overflow-hidden rounded-2xl shadow">
+                            <img src="{{ asset($image->image) }}" alt="Landing Page {{ $project->title }}"
+                                class="object-contain max-h-96 w-full">
+                        </div>
+                    @endforeach
+                </div>
             </div>
 
 
-            <div class="flex items-center gap-6 text-sm">
-                <a href="{{ $project->github }}" target="_blank"
-                    class="flex items-center gap-2 text-gray-700 hover:text-black transition">
-                    <i class="fa-brands fa-github text-lg"></i> Source Code
-                </a>
-            </div>
-        </div>
-
-        <div class="mt-10">
-            <h3 class="text-xl font-semibold text-gray-700 mb-4">Pages</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                @foreach ($project->images as $image)
-                    <div
-                        class="w-full h-auto max-h-96 bg-white flex items-center justify-center overflow-hidden rounded-2xl shadow">
-                        <img src="{{ asset($image->image) }}" alt="Landing Page {{ $project->title }}"
-                            class="object-contain max-h-96 w-full">
-                    </div>
-                @endforeach
-            </div>
-        </div>
-
-
-        {{-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+            {{-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
                 <div>
                     <h4 class="text-lg font-semibold text-gray-700 mb-1">Halaman Aktivitas</h4>
                     <img src="{{ asset('img/project_activity1.png') }}" alt="Activity Page"
