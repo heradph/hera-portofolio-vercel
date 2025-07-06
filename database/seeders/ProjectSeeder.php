@@ -25,21 +25,21 @@ class ProjectSeeder extends Seeder
         'title' => 'TheBuncitmen',
         'slug' => 'the-buncitmen',
         'thumbnail' => 'img/thebuncitmenlogo.png',
-        'description' => 'TheBuncitmen is a Coffeeshop website that integrate the original Coffeeshop "The Buncitmen" in Cinere. Developed with Next.js framework with TypeScript for frontend, Tailwindcss for styling, RadixUI for UI Components, and Prisma for Database ORM',
+        'description' => 'TheBuncitmen is a Coffeeshop website that integrate the original Coffeeshop "The Buncitmen" in Cinere. Developed with Next.js framework with TypeScript for frontend, TailwindCSS for styling, RadixUI for UI Components, and Prisma for Database ORM',
         'github' => 'https://github.com/heradph/The-Buncitman'
     ]);
     $project3 = Project::create([
         'title' => 'TokoTamba Connected',
         'slug' => 'toko-tamba-connected',
         'thumbnail' => 'img/tokotambalogo.svg',
-        'description' => 'TokoTamba Connected is the integration of offline grocery stores "TokoTamba" in Cengkareng into online grocery stores based on websites. Developed with Laravel framework, tailwindcss for styling, and flowbite for UI Components',
+        'description' => 'TokoTamba Connected is the integration of offline grocery stores "TokoTamba" in Cengkareng into online grocery stores based on websites. Developed with Laravel framework, TailwindCSS for styling, and Flowbite for UI Components',
         'github' => 'https://github.com/heradph/tokotambaapp'
     ]);
     $project4 = Project::create([
         'title' => 'All Things Hub',
         'slug' => 'all-things-hub',
         'thumbnail' => 'img/allthingshublogo.png',
-        'description' => 'All Things Hub is an everything one-stop shop that serves online purchases of goods based on a website, which can also manage inventory stock. Developed with Nextjs framework with ChakraUI Components for frontend, ExpressJS for building RESTful API and Microservices architecture, mysql for Database, Dockerization with Docker and Deployed with Kubernetes',
+        'description' => 'All Things Hub is an everything one-stop shop that serves online purchases of goods based on a website, which can also manage inventory stock. Developed with Next.js framework with ChakraUI Components for frontend, ExpressJS for building RESTful API and Microservices Architecture, MySQL for Database, Dockerization with Docker and Deployed with Kubernetes',
         'github' => 'https://github.com/heradph/AllThingsHub'
     ]);
 
@@ -47,7 +47,7 @@ class ProjectSeeder extends Seeder
         'title' => 'BUKU-KU',
         'slug' => 'buku-ku',
         'thumbnail' => 'img/bukukulogo.png',
-        'description' => 'BUKU-KU is a mobile application designed to help users manage and explore books easily. The app allows users to browse a collection of books, view detailed information, and read reviews from other users. It also provides features to add personal reviews, making it a platform for sharing reading experiences. Developed with Java, ExpressJS for RESTful API backend, and mysql for database.',
+        'description' => 'BUKU-KU is a mobile application designed to help users manage and explore books easily. The app allows users to browse a collection of books, view detailed information, and read reviews from other users. It also provides features to add personal reviews, making it a platform for sharing reading experiences. Developed with Java, ExpressJS for RESTful API backend, and MySQL for database.',
         'github' => 'https://github.com/heradph/mobile_book'
     ]);
     $project6 = Project::create([

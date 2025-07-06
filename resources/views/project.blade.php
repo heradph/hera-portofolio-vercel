@@ -9,7 +9,7 @@
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-gray-800">{{ $project->title }}</h2>
-                <p class="mt-2 text-gray-600 max-w-xl mx-auto">{{ $project->description }}</p>
+                <p class="mt-2 text-gray-600 max-w-3xl mx-auto">{{ $project->description }}</p>
                 <p class="text-sm text-gray-500 mt-1">{{ $project->created_at->diffForHumans() }}</p>
             </div>
 
@@ -43,22 +43,6 @@
                     @endforeach
                 </div>
             </div>
-
-
-            {{-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-                <div>
-                    <h4 class="text-lg font-semibold text-gray-700 mb-1">Halaman Aktivitas</h4>
-                    <img src="{{ asset('img/project_activity1.png') }}" alt="Activity Page"
-                        class="rounded-md shadow object-cover w-full">
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold text-gray-700 mb-1">Halaman Admin</h4>
-                    <img src="{{ asset('img/project_activity2.png') }}" alt="Admin Page"
-                        class="rounded-md shadow object-cover w-full">
-                </div>
-            </div> --}}
-
-
         </div>
     </section>
 </x-layout>
