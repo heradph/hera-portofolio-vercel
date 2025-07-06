@@ -33,10 +33,9 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M4 20h16M12 4v12m0 0l-4-4m4 4l4-4" />
                 </svg>
-
             </span>
             <i class="fa-solid fa-file mr-2"></i>
-            <span class="text-sm font-bold transition-all group-hover:me-4"> Download CV</span>
+            <span class="text-sm font-bold transition-all group-hover:me-4">Download CV</span>
         </a>
     </div>
     </section>
