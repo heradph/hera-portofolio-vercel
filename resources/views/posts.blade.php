@@ -38,17 +38,20 @@
                                 </span>
                             </div>
                         </a>
-                        <a class="group relative inline-flex whitespace-nowrap text-sm font-medium items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
-                            href="/posts/{{ $post['slug'] }}">
-                            <span class="absolute -end-full transition-all group-hover:end-4">
-                                <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </span>
-                            <span class="text-sm font-medium transition-all group-hover:me-4"> Read More </span>
-                        </a>
+
+                        <div class="-space-x-4">
+                            <a class="group relative inline-flex whitespace-nowrap text-sm font-medium items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+                                href="/posts/{{ $post['slug'] }}">
+                                <span class="absolute -end-full transition-all group-hover:end-4">
+                                    <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    </svg>
+                                </span>
+                                <span class="text-sm font-medium transition-all group-hover:me-4"> Read More </span>
+                            </a>
+                        </div>
                     </div>
                 </article>
             @empty
