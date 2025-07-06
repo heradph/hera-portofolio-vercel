@@ -34,16 +34,15 @@
 
     <section class="mt-8 max-w-3xl mx-auto px-4 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-6">Tech Stack</h2>
-        <div
-            class="grid grid-cols-3 gap-5 text-3xl text-gray-700 justify-items-center md:flex md:justify-center md:flex-wrap">
-            <i class="fa-brands fa-php"></i>
-            <i class="fa-brands fa-laravel"></i>
-            <i class="fa-brands fa-square-js"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-node-js"></i>
-            <i class="fa-brands fa-java"></i>
-            <i class="fa-solid fa-database"></i>
+        <div class="flex flex-wrap justify-center text-3xl text-gray-700">
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-php"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-laravel"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-square-js"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-react"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-node-js"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-brands fa-java"></i></div>
+            <div class="w-1/4 md:w-auto flex justify-center mb-4"><i class="fa-solid fa-database"></i></div>
         </div>
     </section>
 
