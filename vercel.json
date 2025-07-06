@@ -7,16 +7,16 @@
     },
     "routes": [
         {
+            "src": "/favicon/(.*)",
+            "dest": "/public/favicon/$1"
+        },
+        {
             "src": "/img/(.*)",
             "dest": "/public/img/"
         },
         {
             "src": "/(.*\\.pdf)",
             "dest": "/public/$1"
-        },
-        {
-            "src": "/favicon/(.*)",
-            "dest": "/favicon/$1"
         },
         {
             "src": "/(.*\\.txt)",
