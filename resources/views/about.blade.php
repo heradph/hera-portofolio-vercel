@@ -59,10 +59,18 @@
                     <img src="img/profile1.JPG" alt="About Me"
                         class="mx-auto mt-8 h-120 rounded-3xl object-cover shadow-md" />
 
-                    <a href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}" download
-                        class="px-6 py-3 bg-[#1D503A] text-white font-semibold rounded-lg shadow-md hover:bg-[#FAF5EE] hover:text-gray-700 transition">
+                    <a class="group relative inline-flex items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+                        href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}">
+                        <span class="absolute -end-full transition-all group-hover:end-4">
+                            <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 20h16M12 4v12m0 0l-4-4m4 4l4-4" />
+                            </svg>
+
+                        </span>
                         <i class="fa-solid fa-file mr-2"></i>
-                        Download CV
+                        <span class="text-sm font-medium transition-all group-hover:me-4"> Download CV</span>
                     </a>
                 </div>
             </div>

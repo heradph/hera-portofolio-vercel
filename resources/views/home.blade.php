@@ -31,8 +31,9 @@
                 <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        d="M4 20h16M12 4v12m0 0l-4-4m4 4l4-4" />
                 </svg>
+
             </span>
             <i class="fa-solid fa-file mr-2"></i>
             <span class="text-sm font-medium transition-all group-hover:me-4"> Download CV</span>
