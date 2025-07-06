@@ -11,7 +11,7 @@
                         d="M7 16l-4-4m0 0l4-4m-4 4h18" />
                 </svg>
             </span>
-            <span class="text-sm font-bold transition-all group-hover:me-4"> Back to All Projects</span>
+            <span class="text-sm font-bold transition-all group-hover:ms-4"> Back to All Projects</span>
         </a>
     </div>
 

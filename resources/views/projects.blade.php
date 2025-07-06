@@ -31,9 +31,16 @@
                             </div>
 
                             <div class="flex items-center justify-between text-sm mt-4 pt-3 border-t">
-                                <a href="/projects/{{ $project->slug }}"
-                                    class="inline-block px-4 py-2 bg-[#1D503A] text-white font-medium text-sm rounded-md shadow hover:bg-[#FAF5EE] hover:text-gray-700 transition">
-                                    See More
+                                <a class="group relative inline-flex items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+                                    href="/projects/{{ $project->slug }}">
+                                    <span class="absolute -end-full transition-all group-hover:end-4">
+                                        <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm font-medium transition-all group-hover:me-4"> See More </span>
                                 </a>
                                 <span class="text-gray-400">{{ $project->created_at->diffForHumans() }}</span>
                             </div>
