@@ -69,14 +69,24 @@ class ImagesSeeder extends Seeder
             ['name' => 'pedagora13', 'image' => 'img/pedagora13.png'], 
             ['name' => 'pedagora14', 'image' => 'img/pedagora14.png'], 
             ['name' => 'pedagora15', 'image' => 'img/pedagora15.png'], 
-            ['name' => 'meds', 'image' => 'img/meds.png'], // 56
-            ['name' => 'meds1', 'image' => 'img/meds1.png'], 
-            ['name' => 'meds2', 'image' => 'img/meds2.png'], 
-            ['name' => 'meds3', 'image' => 'img/meds3.png'], 
-            ['name' => 'meds4', 'image' => 'img/meds4.png'], 
-            ['name' => 'meds5', 'image' => 'img/meds5.png'], 
-            ['name' => 'meds6', 'image' => 'img/meds6.png'],  //62
-            ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //63
+            ['name' => 'syafira', 'image' => 'img/syafira.png'], //56
+            ['name' => 'syafira1', 'image' => 'img/syafira1.png'], 
+            ['name' => 'syafira2', 'image' => 'img/syafira2.png'], 
+            ['name' => 'syafira3', 'image' => 'img/syafira3.png'], 
+            ['name' => 'syafira4', 'image' => 'img/syafira4.png'], 
+            ['name' => 'syafira5', 'image' => 'img/syafira5.png'], 
+            ['name' => 'syafira6', 'image' => 'img/syafira6.png'], 
+            ['name' => 'syafira7', 'image' => 'img/syafira7.png'], 
+            ['name' => 'syafira8', 'image' => 'img/syafira8.png'], //64
+
+            // ['name' => 'meds', 'image' => 'img/meds.png'], // 56
+            // ['name' => 'meds1', 'image' => 'img/meds1.png'], 
+            // ['name' => 'meds2', 'image' => 'img/meds2.png'], 
+            // ['name' => 'meds3', 'image' => 'img/meds3.png'], 
+            // ['name' => 'meds4', 'image' => 'img/meds4.png'], 
+            // ['name' => 'meds5', 'image' => 'img/meds5.png'], 
+            // ['name' => 'meds6', 'image' => 'img/meds6.png'],  //62
+            // ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //63
         ]);
     }
 }

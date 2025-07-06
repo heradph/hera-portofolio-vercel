@@ -15,6 +15,7 @@
 
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
                 <div class="flex flex-wrap gap-4 text-2xl text-gray-700 mb-4 sm:mb-0">
+                    <p class="font-bold">Tech Used:</p>
                     @foreach ($project->technologies as $tech)
                         <i class="{{ $tech->item_class }}" title="{{ $tech->name }}"></i>
                     @endforeach

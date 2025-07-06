@@ -58,13 +58,21 @@ class ProjectSeeder extends Seeder
         'github' => 'https://www.figma.com/proto/1YBG3Re1YALG6hxJiBauNH/PEDAGORA?node-id=28-23&starting-point-node-id=1%3A5&t=pWodebqfCuh6NmSh-1'
     ]);
     $project7 = Project::create([
-        'title' => "Med's Birthday",
-        'slug' => 'meds-birthday',
-        'thumbnail' => 'img/medslogo.png',
-        'description' => "Med's Birthday is an Android-based mobile application designed to celebrate and document the birthday moments of someone named Medinna. This application allows users to view information about Med's birthday, such as the birthday date, countdown to the special day, greetings from friends, and a gallery of memorable photos.",
-        'github' => 'https://github.com/heradph/Meds-Birthday'
+        'title' => "Syafira Sungkar Shop (Wix)",
+        'slug' => 'syafira-sungkar-shop',
+        'thumbnail' => 'img/syafiralogo.png',
+        'description' => "SyafiraSungkar.shop is a company profile website I developed for a trusted personal shopping and delivery service specializing in jasa titip across Asia. The platform showcases the brand's offerings in fashion, cosmetics, and skincare procurement, highlighting their seamless service for clients seeking exclusive or hard-to-find international items. The website focuses on clear branding, responsive design, and user-friendly navigation to enhance client trust and engagement. Made with Wix",
+        'github' => 'https://www.syafirasungkar.shop/'
     ]);
-
+    
+    // $project7 = Project::create([
+    //     'title' => "Med's Birthday",
+    //     'slug' => 'meds-birthday',
+    //     'thumbnail' => 'img/medslogo.png',
+    //     'description' => "Med's Birthday is an Android-based mobile application designed to celebrate and document the birthday moments of someone named Medinna. This application allows users to view information about Med's birthday, such as the birthday date, countdown to the special day, greetings from friends, and a gallery of memorable photos.",
+    //     'github' => 'https://github.com/heradph/Meds-Birthday'
+    // ]);
+    
     // laravel php css js react node git bootstrap java docker figma
 
     $project1->technologies()->attach([2, 3, 7, 8]); 
@@ -85,7 +93,7 @@ class ProjectSeeder extends Seeder
     $project6->technologies()->attach([11]);
     $project6->images()->attach([40, 41, 42, 43, 44, 45, 46 ,47, 48, 49, 50, 51 , 52, 53, 54, 55]);
 
-    $project7->technologies()->attach([9]);
-    $project7->images()->attach([56, 57, 58, 59, 60, 61, 62]);
+    $project7->technologies()->attach([]);
+    $project7->images()->attach([56, 57, 58, 59, 60, 61, 62, 63, 64]);
     }
 }
