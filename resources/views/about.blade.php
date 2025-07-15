@@ -4,7 +4,6 @@
     <section class="py-18 relative">
         <div class="w-full max-w-screen-xl px-4 sm:px-6 lg:px-0 mx-auto">
             <div class="flex flex-col lg:flex-row items-center gap-8">
-                <!-- KIRI: TEKS -->
                 <div class="w-full lg:w-7/12 flex flex-col gap-4">
                     <div class="flex flex-col gap-4">
                         <h2 class="text-gray-900 text-3xl sm:text-4xl font-bold font-manrope text-left">
@@ -60,7 +59,7 @@
                         class="mx-auto mt-8 h-120 rounded-3xl object-cover shadow-md" />
 
                     <a class="group relative inline-flex items-center overflow-hidden rounded-sm bg-[#1D503A] px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
-                        href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}">
+                        href="{{ asset('CVDevarizaPuteraHerawan.pdf') }}" download>
                         <span class="absolute -end-full transition-all group-hover:end-4">
                             <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
