@@ -114,6 +114,6 @@ class ProjectSeeder extends Seeder
     $project8->images()->attach([66, 67, 68, 69, 70]);
 
     $project9->technologies()->attach([13]);
-    $project9->images()->attach([]);
+    $project9->images()->attach([71, 72, 73, 74, 75 ,76]);
     }
 }
