@@ -18,7 +18,7 @@
                         </p>
 
                         <p class="text-gray-500 mb-2 text-base leading-relaxed text-justify -mt-3">
-                            Over the past 4 semesters, I’ve worked on several projects involving dynamic websites, API
+                            Over the past 5 semesters, I’ve worked on several projects involving dynamic websites, API
                             integration, microservices architecture, UI/UX design, and even mobile app development. My
                             main focus is building systems that are not just functional, but also efficient,
                             well-structured, and easy to use.

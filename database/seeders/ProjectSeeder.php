@@ -64,6 +64,13 @@ class ProjectSeeder extends Seeder
         'description' => "SyafiraSungkar.shop is a company profile website we developed for a trusted personal shopping and delivery service specializing in jasa titip across Asia. The platform showcases the brand's offerings in fashion, cosmetics, and skincare procurement, highlighting their seamless service for clients seeking exclusive or hard-to-find international items. The website focuses on clear branding, responsive design, and user-friendly navigation to enhance client trust and engagement. Made with Wix",
         'github' => 'https://www.syafirasungkar.shop/'
     ]);
+    $project8 = Project::create([
+        'title' => "Dubai Luxury Property",
+        'slug' => 'dubai-luxury-property',
+        'thumbnail' => 'img/dubailuxurylogo.png',
+        'description' => "Dubai Luxury Property is a professional company profile and property listing website designed to showcase premium real estate projects in Dubai. The website focuses on delivering a high-end user experience, SEO-optimized content, and clear information architecture to support international investors and property buyers in discovering luxury residential and investment opportunities.",
+        'github' => 'https://www.dubailuxuryproperty.id'
+    ]);
     
     // $project7 = Project::create([
     //     'title' => "Med's Birthday",
@@ -94,5 +101,8 @@ class ProjectSeeder extends Seeder
     $project6->images()->attach([40, 41, 42, 43, 44, 45, 46 ,47, 48, 49, 50, 51 , 52, 53, 54, 55]);
 
     $project7->images()->attach([56, 57, 58, 59, 60, 61, 62, 63, 64]);
+
+    $project8->technologies()->attach([13, 14]);
+    $project8->images()->attach([66, 67, 68, 69, 70]);
     }
 }

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('technologies', function (Blueprint $table) {
             $table->id();
             $table->String('name');
-            $table->String('item_class');
+            $table->String('item_class', 500);
         });
     }
 

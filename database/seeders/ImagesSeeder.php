@@ -79,8 +79,12 @@ class ImagesSeeder extends Seeder
             ['name' => 'syafira7', 'image' => 'img/syafira7.png'], 
             ['name' => 'syafira8', 'image' => 'img/syafira8.png'], //64
             ['name' => 'tokotamba5', 'image' => 'img/tokotamba4.png'], //65
-
-
+            ['name' => 'dubailux1', 'image' => 'img/dubailux1.png'], 
+            ['name' => 'dubailux2', 'image' => 'img/dubailux2.png'],
+            ['name' => 'dubailux3', 'image' => 'img/dubailux3.png'],
+            ['name' => 'dubailux4', 'image' => 'img/dubailux4.png'],
+            ['name' => 'dubailux5', 'image' => 'img/dubailux5.png'],
+            
             // ['name' => 'meds', 'image' => 'img/meds.png'], // 56
             // ['name' => 'meds1', 'image' => 'img/meds1.png'], 
             // ['name' => 'meds2', 'image' => 'img/meds2.png'], 
