@@ -4,7 +4,7 @@
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 ">All Blogs</h2>
     </div>
     <x-search></x-search>
-    {{ $posts->links('vendor.pagination.tailwind') }}
+    {{ $posts->links('pagination.tailwind') }}
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-0">
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             @forelse ($posts as $post)
