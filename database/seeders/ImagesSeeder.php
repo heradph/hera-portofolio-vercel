@@ -84,6 +84,12 @@ class ImagesSeeder extends Seeder
             ['name' => 'dubailux3', 'image' => 'img/dubailux3.png'],
             ['name' => 'dubailux4', 'image' => 'img/dubailux4.png'],
             ['name' => 'dubailux5', 'image' => 'img/dubailux5.png'],
+            ['name' => 'pyuskin1', 'image' => 'img/pyuskin1.png'],
+            ['name' => 'pyuskin2', 'image' => 'img/pyuskin2.png'],
+            ['name' => 'pyuskin3', 'image' => 'img/pyuskin3.png'],
+            ['name' => 'pyuskin4', 'image' => 'img/pyuskin4.png'],
+            ['name' => 'pyuskin5', 'image' => 'img/pyuskin5.png'],
+            ['name' => 'pyuskin6', 'image' => 'img/pyuskin6.png'],
             
             // ['name' => 'meds', 'image' => 'img/meds.png'], // 56
             // ['name' => 'meds1', 'image' => 'img/meds1.png'], 

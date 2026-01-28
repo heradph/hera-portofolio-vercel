@@ -38,7 +38,7 @@
                 <div class="flex items-center gap-6 text-sm">
                     <a href="{{ $project->github }}" target="_blank"
                         class="flex items-center gap-2 text-gray-700 hover:text-black transition">
-                        <i class="fa-brands fa-github text-lg"></i> Source Code
+                        <i class="fa-brands fa-github text-lg"></i> Github Repository | <i class="fa-solid fa-tower-broadcast"></i> Live Demo 
                     </a>
                 </div>
             </div>

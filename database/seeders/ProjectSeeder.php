@@ -58,7 +58,7 @@ class ProjectSeeder extends Seeder
         'github' => 'https://www.figma.com/proto/1YBG3Re1YALG6hxJiBauNH/PEDAGORA?node-id=28-23&starting-point-node-id=1%3A5&t=pWodebqfCuh6NmSh-1'
     ]);
     $project7 = Project::create([
-        'title' => "Syafira Sungkar Shop (Wix)",
+        'title' => "Syafira Sungkar Shop (WIX)",
         'slug' => 'syafira-sungkar-shop',
         'thumbnail' => 'img/syafiralogo.png',
         'description' => "SyafiraSungkar.shop is a company profile website we developed for a trusted personal shopping and delivery service specializing in jasa titip across Asia. The platform showcases the brand's offerings in fashion, cosmetics, and skincare procurement, highlighting their seamless service for clients seeking exclusive or hard-to-find international items. The website focuses on clear branding, responsive design, and user-friendly navigation to enhance client trust and engagement. Made with Wix",
@@ -68,10 +68,17 @@ class ProjectSeeder extends Seeder
         'title' => "Dubai Luxury Property",
         'slug' => 'dubai-luxury-property',
         'thumbnail' => 'img/dubailuxurylogo.png',
-        'description' => "Dubai Luxury Property is a professional company profile and property listing website designed to showcase premium real estate projects in Dubai. The website focuses on delivering a high-end user experience, SEO-optimized content, and clear information architecture to support international investors and property buyers in discovering luxury residential and investment opportunities.",
+        'description' => "dubailuxuryproperty.id is a professional company profile and property listing website designed to showcase premium real estate projects in Dubai. The website focuses on delivering a high-end user experience, SEO-optimized content, and clear information architecture to support international investors and property buyers in discovering luxury residential and investment opportunities. Made with NextJS Framework with Typescript and Supabase for database.",
         'github' => 'https://www.dubailuxuryproperty.id'
     ]);
-    
+    $project9 = Project::create([
+        'title' => "Pyuskin (WIX)",
+        'slug' => 'pyuskin-wix',
+        'thumbnail' => 'img/pyuskinlogo.png',
+        'description' => "Pyuskin / TST Skin Health is a skincare-focused website developed to support digital branding, SEO content strategy, and customer engagement in the beauty and skin health industry. The website serves as an information and marketing platform, featuring optimized articles, product insights, and structured content to improve search visibility and strengthen brand credibility.",
+        'github' => 'https://www.pyuskin.com'
+    ]);
+
     // $project7 = Project::create([
     //     'title' => "Med's Birthday",
     //     'slug' => 'meds-birthday',
@@ -100,9 +107,13 @@ class ProjectSeeder extends Seeder
     $project6->technologies()->attach([11]);
     $project6->images()->attach([40, 41, 42, 43, 44, 45, 46 ,47, 48, 49, 50, 51 , 52, 53, 54, 55]);
 
+    $project7->technologies()->attach([13]);
     $project7->images()->attach([56, 57, 58, 59, 60, 61, 62, 63, 64]);
 
-    $project8->technologies()->attach([13, 14]);
+    $project8->technologies()->attach([12]);
     $project8->images()->attach([66, 67, 68, 69, 70]);
+
+    $project9->technologies()->attach([13]);
+    $project9->images()->attach([]);
     }
 }
